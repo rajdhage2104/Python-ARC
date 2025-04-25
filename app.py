@@ -8,7 +8,7 @@ app = Flask(__name__)
 def get_pod_ip():
     return socket.gethostbyname(socket.gethostname())
  
-# Function to get the node IP (from environment variable or fallback)
+# Function to get the node IP (from environment variable or fallbac)
 def get_node_ip():
     return os.environ.get('NODE_IP', 'Not available')
  
